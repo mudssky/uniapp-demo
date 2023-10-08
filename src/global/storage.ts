@@ -1,3 +1,5 @@
 import { UniStorage } from '@mudssky/jsutils'
 
-export const GlobalStorage = new UniStorage(uni)
+export type GlobalStorageKey = 'userId'
+
+export const GlobalStorage = new UniStorage<GlobalStorageKey>(uni)
