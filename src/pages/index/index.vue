@@ -12,8 +12,8 @@ import { ref } from 'vue'
 import { GlobalStorage } from '@/global/storage'
 
 // ss.setStorageSync('sss', 122334)
-GlobalStorage.setStorageSync('sss', 122334)
-console.log('get storage', GlobalStorage.getStorageSync('sss'))
+GlobalStorage.setStorageSync('userId', 122334)
+console.log('get storage', GlobalStorage.getStorageSync('userId'))
 const title = ref('Hello')
 </script>
 
