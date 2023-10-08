@@ -44,6 +44,9 @@ dependencies:
   '@dcloudio/uni-quickapp-webview':
     specifier: 3.0.0-3081220230817001
     version: 3.0.0-3081220230817001(postcss@8.4.29)(vue@3.3.4)
+  '@mudssky/jsutils':
+    specifier: ^0.2.3
+    version: 0.2.3
   vue:
     specifier: ^3.2.45
     version: 3.3.4
@@ -2876,6 +2879,10 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
+
+  /@mudssky/jsutils@0.2.3:
+    resolution: {integrity: sha512-RMPEEwi4A8GNGe+/f2ouVa2pU2g5la+RGIFAqWM0ZLqzLTPgzcV4ks4XVARlnHDyVyNnbCD365u3WmzlOLuQ2g==}
+    dev: false
 
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}

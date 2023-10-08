@@ -9,6 +9,11 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { GlobalStorage } from '@/global/storage'
+
+// ss.setStorageSync('sss', 122334)
+GlobalStorage.setStorageSync('sss', 122334)
+console.log('get storage', GlobalStorage.getStorageSync('sss'))
 const title = ref('Hello')
 </script>
 
